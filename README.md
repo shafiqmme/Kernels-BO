@@ -28,11 +28,9 @@
 │   ├── mds_error_vs_k.pdf  # Reconstruction error vs embedding dimension
 │   ├── mds_parity.pdf      # Parity plot
 │
-├── main/
-│   ├── build_kernel_geometry.py  # End-to-end pipeline
-│
-├── notebooks/
-│   ├── kernel_geometry_demo.ipynb
+├── main notebooks/
+│   ├── input_space.ipynb
+│   ├── main.ipynb
 │
 └── README.md
 ```
