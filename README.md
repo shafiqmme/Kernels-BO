@@ -24,7 +24,7 @@
 │   ├── export.py           # CSV export of kernel embeddings
 │
 ├── output/
-│   ├── kernels_JS-1D.csv   # MDS-embedded kernel descriptors
+│   ├── kernels_JS.csv      # MDS-embedded kernel descriptors
 │   ├── mds_error_vs_k.pdf  # Reconstruction error vs embedding dimension
 │   ├── mds_parity.pdf      # Parity plot
 │
