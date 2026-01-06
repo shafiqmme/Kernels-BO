@@ -7,6 +7,9 @@
 │   ├── grammar.py          # Kernel grammar and expression generation
 │   ├── builders.py         # Construction of GP kernels from grammar expressions
 │
+├── utils/
+│   ├── qmc.py              # quasi monte carlo
+│
 ├── distances/
 │   ├── js.py               # Jensen–Shannon divergence utilities
 │   ├── expectations.py     # Expected √JS distance via QMC over hyperparameters
