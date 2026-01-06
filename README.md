@@ -28,7 +28,7 @@
 │   ├── mds_error_vs_k.pdf  # Reconstruction error vs embedding dimension
 │   ├── mds_parity.pdf      # Parity plot
 │
-├── main notebooks/
+├── notebooks/
 │   ├── input_space.ipynb
 │   ├── main.ipynb
 │
