@@ -71,3 +71,21 @@ The pipeline consists of the following steps:
 │
 └── README.md
 ```
+
+## 4. Requirements
+
+- Python ≥ 3.9
+
+- NumPy
+
+- SciPy
+
+- PyTorch
+
+- GPyTorch
+
+- BoTorch
+
+- scikit-learn
+
+- matplotlib
