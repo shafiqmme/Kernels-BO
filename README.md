@@ -89,3 +89,29 @@ The pipeline consists of the following steps:
 - scikit-learn
 
 - matplotlib
+
+## 5. Experiments & Benchmarks
+
+Benchmarks include:
+
+- Ackley
+
+- Dropwave
+
+- Schwefel
+
+- Rastrigin
+
+- Levy
+
+- Bukin
+
+- Airline
+
+- Mauna Loa CO₂
+
+- Eggholder
+
+- Thermal History (In house data)
+
+- Printability Data (In house data)
