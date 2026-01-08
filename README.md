@@ -1,4 +1,37 @@
-## Directory Structure
+# Bayesian Optimization over Kernel Space
+
+This repository implements a kernel optimization framework that searches over kernel space.
+The framework is designed to compare BO-based kernel search against LLM-guided genetic algorithms (LLM-GA) and other baselines under controlled computational budgets.
+
+## 1. Overview
+
+Gaussian Process performance is highly sensitive to kernel choice. Instead of selecting kernels heuristically or via greedy composition, this work:
+
+- Constructs a symbolic grammar over GP kernels
+
+- Defines a probabilistic distance between kernels by marginalizing over hyperparameters
+
+- Embeds kernels into a Euclidean latent space using MDS
+
+- Performs Bayesian Optimization in kernel space
+
+- This enables principled, sample-efficient kernel discovery.
+
+## 2. Methodology Summary
+
+The pipeline consists of the following steps:
+
+- Kernel Grammar Construction: Generate a discrete kernel space using symbolic grammar rules.
+
+- Expected Distance Computation: For each kernel pair, compute the expected √Jensen–Shannon distance by integrating over kernel hyperparameters using Quasi–Monte Carlo (QMC).
+
+- Metric Embedding: Embed the kernel distance matrix into a low-dimensional Euclidean space using classical MDS.
+
+- Kernel Bayesian Optimization: Perform BO over the embedded kernel space to identify high-performing kernel structures.
+
+- Application-Level Evaluation: Apply optimized kernels to real tasks (e.g., printability modeling).
+
+## 3. Directory Structure
 
 ```
 /kernels-BO
