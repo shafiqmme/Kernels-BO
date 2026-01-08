@@ -118,3 +118,6 @@ Benchmarks include:
 - Thermal History (In house data)
 
 - Printability Data (In house data)
+
+## Cite this work
+[![DOI](https://zenodo.org/badge/1128343109.svg)](https://doi.org/10.5281/zenodo.18189227)
