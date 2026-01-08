@@ -62,6 +62,9 @@ The pipeline consists of the following steps:
 │   ├── mds_parity.pdf      # Parity plot
 │
 ├── main/
+│   ├── timetemp.csv        # an in house data for benchmark
+│   ├── airline.csv         # international airline passenger data
+│   ├── mauna.csv           # Mauna Loa CO2 conc. data
 │   ├── input_space.ipynb
 │   ├── main.ipynb
 │
