@@ -68,8 +68,7 @@ The pipeline consists of the following steps:
 │   ├── input_space.ipynb
 │   ├── main.ipynb
 │
-├── Application/
-│   ├── Printability_Data.csv
+├── application/
 │   ├── BO_with_Optimized_Kernels.ipynb
 │
 └── README.md
